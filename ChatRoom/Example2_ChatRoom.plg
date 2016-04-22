@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Example2_ChatRoom - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Example2_ChatRoom.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\第三本书 VC游戏开发\《-----------实例------------》\ChatRoom(CSocket)\Example2_ChatRoomDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFB.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Example2_ChatRoom.pdb" /debug /machine:I386 /out:"Debug/Example2_ChatRoom.exe" /pdbtype:sept 
+".\Debug\ClientSocket.obj"
+".\Debug\CMessg.obj"
+".\Debug\Example2_ChatRoom.obj"
+".\Debug\Example2_ChatRoomDlg.obj"
+".\Debug\ServerSocket.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Example2_ChatRoom.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFC.tmp"
+<h3>Output Window</h3>
+Compiling...
+Example2_ChatRoomDlg.cpp
+d:\第三本书 vc游戏开发\《-----------实例------------》\chatroom(csocket)\example2_chatroomdlg.cpp(4) : warning C4652: compiler option 'Generate Browser Info' inconsistent with precompiled header; current command-line option will override that defined in the precompiled header
+Linking...
+
+
+
+<h3>Results</h3>
+Example2_ChatRoom.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
